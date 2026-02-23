@@ -68,10 +68,10 @@ async function createEntry(databaseId: string, eventPageId: string) {
       },
       properties: {
         "Name": {
-          title: [{ text: { content: "pette" } }]
+          title: [{ text: { content: "test" } }]
         },
         "Select": {
-          select: { name: "Not started" }
+          select: { name: "Not started" } // "In progress", "Done"
         },
         "Event": {
           relation: [
